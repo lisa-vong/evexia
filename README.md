@@ -6,7 +6,7 @@ This is a web application made to help ones with anxiety and panic attacks. Evex
 audio, videos, and meditation material that empowers you with cognitive behavioral therapy techniques to overcome panic attacks. 
 There is also a mood and stress tracker for you to be able to reflect. 
 
-SOURCES 
+SOURCES<br> 
 Sources for mental health research used in project:
 
 Mayo Clinic. (2018, May 4th). Anxiety Disorders. Retrieved from, https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961
