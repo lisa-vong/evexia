@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.adobe.com/fonts/rig-solid" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
+    <script src="p5.js"></script>
+    
+    <title>Evexia</title>
+</head>
+<body >
+    <div style ="position: absolute; top: 40px; left: 0; right: 0; background-color: #d9d075;">
+        <form action ="home.html" method ="get" target ="_self">
+                <button id = "buttons" style = "border-left-width: 6px;">Home</button>
+        </form>
+
+        <form action ="logs.html" method ="get" target ="_self">
+            <button id = "buttons">Logs</button>
+        </form>
+
+        <form action = "mindfulness.html" method = "get" target = "_self">
+            <button id = "buttons">Mindfulness</button>
+        </form>
+
+        <form action = "game.html" method = "get" target = "_self">
+            <button id = "buttons" style = "border-right-width: 6px;">Game</button>
+        </form>
+    </div>
+
+    <div align = center style =" position: absolute; top: 80px; left: 0; right: 0; background-color: white; padding-left: 23.5%; ">
+        <form action ="#logs.html" method ="get" target ="_self">
+            <button id = "secButtons">Mood Logs</button>
+        </form>
+
+        <form action ="#heading2" method ="get" target ="_self">
+            <button id = "secButtons">Stress Logs</button>
+        </form>
+    </div>
+    
+    <div align = center>
+        <h1 style = "font-size: 300%; margin: 0; color: #ad7a79;font-family: 'Cabin', sans-serif;
+        margin-top: 120px; text-shadow: 4px 3px 0 white;">STRESS LOGS</h1>
+        <div style ="font-family: 'Sacramento', cursive; font-size: 150%; padding-bottom: 2%;">
+            <caption>record your daily emotions!</caption>
+        </div>
+    </div>
+    <hr color = #d59594 style = "border-top: 5px dotted #d9d075;">
+
+    <p align = center style ="color: white;">This is where you can upload daily thoughts, experiences, and emotions! :)</p>
+
+    <form align = center>
+        <label>Title:</label>
+        <input type= text size = 30>
+        <label>Write your reflection!</label>
+        <textarea rows = 10 cols = 20>
+            Write your reflection here!
+        </textarea>
+        <input type = submit>
+    </form>
+
+    </body>
+    </html>
